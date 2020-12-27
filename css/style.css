@@ -213,7 +213,7 @@ form input {
 	margin-top: 50px;
 	}
 	.carousel-inner{
-	height: 400px;
+	height: 300px;
 	}
 	.carousel-caption {
 		text-align:left;
@@ -226,7 +226,6 @@ form input {
 	.carousel-caption p{
 	color:black;
 	text-align:left;
-	margin:4px 0px;
 	}
 	.carousel-caption h3{
 	color:black;
