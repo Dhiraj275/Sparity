@@ -1,0 +1,50 @@
+.card-list{
+    margin: 28px 8px;
+    overflow-x: hidden;
+}
+.card-parent{
+    position: relative;
+    color: white;
+    padding: 24px;
+    z-index: 1;
+    border-radius: 10px;
+    width: 30px;
+    margin: 18px 0px;
+    overflow-x: hidden;
+    background-position: center;background-size: cover;
+}
+.card-parent::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.6);
+    z-index: -1;
+}
+.card-parent:nth-child(1){background: url("../img/bfsi/financial-img1.jpg"); background-position: center;background-size: cover;}
+.card-parent:nth-child(2){background: url("../img/bfsi/financial-img2.jpg"); background-position: center;background-size: cover;}
+.card-parent:nth-child(3){background: url("../img/bfsi/financial-img3.jpg"); background-position: center;background-size: cover;}
+.card-parent:nth-child(4){background: url("../img/bfsi/financial-img4.jpg"); background-position: center;background-size: cover;}
+.card-parent:nth-child(5){background: url("../img/bfsi/financial-img5.jpg"); background-position: center;background-size: cover;}
+.card-parent h4{
+    font-size: 20px;
+}
+.card-parent ul{
+    margin-left: 20px;
+}
+
+@media(min-width:992px){
+    
+    .card-parent:nth-child(5){margin: auto;}
+
+    .card-list{
+        position: relative;
+       transform: translateX(5%);
+    }
+
+    .card-parent{
+        margin: 18px 20px;
+    }
+}

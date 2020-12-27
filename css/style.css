@@ -1,0 +1,477 @@
+/*covid*/
+
+*
+{
+	margin:0;
+
+	padding:0;
+
+}
+body {
+width:100vw;
+overflow-x: hidden;
+}
+
+.covid
+{ 
+	z-index:1;
+	color:white;
+	background:#00346d;
+}
+
+.covid-child 
+{
+	padding:16PX 16PX 4px;
+}
+.covid h6
+{
+	font-weight:600;
+	font-size:14px;
+}
+.covid a
+{	text-decoration:underline;
+	color:white;
+}
+
+.covid ul li a
+{
+	text-decoration:none;
+}
+
+.covid ul li{
+	list-style:none;
+	margin:8px;
+}
+
+
+
+
+/*header*/
+header{
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    
+}
+.navbar{
+    z-index: 99;
+    box-shadow: 10px 0px 10px rgba(0,0,0,.6);
+    text-align:center;
+    
+    }
+    .navbar a{
+    font-weight: 1000;
+    }
+    .nav-first-col{
+        display: none;
+    }
+
+
+
+.sticky{
+    position: relative;
+    top: 0px;
+    background: white;
+}
+
+.carasol_content{
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+}
+.location h3{
+    font-size: 30px;
+}
+#slide-text{
+    font-size: 20px;
+    margin: 2px 16px;
+}
+.main_body h4{
+    font-weight: 600;
+    text-align: center;
+    margin: 18px 18px;
+
+}
+.main_body p{
+    
+    margin: 6px 18px;
+}
+
+.main_body .healthcare-img{
+    width: 80vw;
+}
+
+
+/* CAPABILITIES */
+.capabilities{
+    margin: 28px 0px;
+    padding: 14px 16px;
+    background: #f2f2f2;
+}
+.capabilities .title{
+    text-align: center;
+    padding: 20px 0px ;
+    position: relative;
+}
+
+.capabilities .title::after{
+    position: absolute;
+    content: "";
+    width: 10%;
+    height: 10%;
+    background: #76c141;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: 0;
+
+}
+.img-div img{
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+    margin-top: 20PX;
+  
+}
+
+/* talk to us */
+.contact{
+    margin: 30px 0px;
+}
+form input {
+	position:relative;
+	left:50%;
+	transform:translateX(-50%);
+}
+
+.submit-btn{
+    padding: 6px 10px;
+    color:white;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1b427f;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    transition: 0.5s;
+}
+
+
+/* list */
+.list{
+    margin: 20px 28px ;
+    font-size: 20px;
+}
+
+.list ul{
+    list-style: none;
+}
+.list ul li:before {
+    content: '\2713';
+    color: chartreuse;
+    font-weight: 1000;
+  }
+
+
+  /* Testimonials */
+
+
+
+  .testimonials{
+    margin: 28px 0px;
+    padding: 14px 66px;
+    background: #f2f2f2;
+}
+.testimonials .title{
+    text-align: center;
+    padding: 20px 0px ;
+    position: relative;
+   
+}
+
+.testimonials .title::after{
+    position: absolute;
+    content: "";
+    width: 10%;
+    height: 10%;
+    background: #76c141;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: 0;
+
+}
+.t-quote{
+    text-align: center;
+    
+}
+	/*case studies*/
+
+	.case-study{
+	background-color: #fff;
+	}
+	.carousel{
+	margin-top: 50px;
+	}
+	.carousel-inner{
+	height: 300px;
+	}
+	.carousel-caption {
+		text-align:left;
+		top: 50%;
+		transform:translateY(-50%);
+    }
+    .carousel-caption img{
+        display: none;
+    }
+	.carousel-caption p{
+	color:black;
+	text-align:left;
+	}
+	.carousel-caption h3{
+	color:black;
+	font-size:20px;
+	font-weight:800;
+	text-align:left;
+	}
+    .carousel-caption .btn{
+        text-align: left;
+        position: relative;
+        background: #00346d;
+        color: #fff;
+        float: left;
+        
+    }
+    .carousel-caption .btn:hover{
+        color: #fff;
+    }
+	.carousel-item{
+	color:black;
+
+	}
+	.laptop{
+	display:none;
+	}
+/*footer*/
+.desk-only{
+    display: none;
+}
+footer{
+    background: #00346d;
+    padding: 18px 28px;
+    color: white;
+}
+footer h2{
+    
+    padding: 8px 0px ;
+    position: relative;
+    font-size: 20px;
+   
+}
+footer h6{
+    font-size: 15px;
+}
+footer ul li{
+    font-size: 14px;
+    list-style: none;
+    position: relative;
+    left: 0px;
+}
+footer h2::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3%;
+    background: #76c141;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: 0;
+
+}
+footer a{
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+footer a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+footer .link {
+opacity:80%;
+margin:0 15px;
+font-size:35px;
+}
+
+.mega-dropdown{
+    width: 100vw;
+    height: 50vh;
+    overflow-Y: scroll;
+    overflow-x: hidden;
+    transform: translateX(-5%);
+
+  }
+  .mega-dropdown h5{
+      color: #1a4280;;
+  }
+/* responsive code */
+@media(min-width:576px){
+    .nav-first-col{
+        display: none;
+    }
+    .mega-dropdown{
+        width: 100vw;
+        height: 50vh;
+    }
+}
+@media(min-width:992px){
+    .nav-first-col{
+        display: block;
+    }
+    .mega-dropdown{
+        width: 85vw; 
+        height: 60vh;
+        transform: translateX(-30%);
+        overflow: hidden;
+        
+      }
+      .mega-dropdown .row{
+          margin: 20px 10px;
+
+      }
+
+    /* .location */
+
+    .carasol_content{
+        position: relative;
+        text-align: left;
+        margin-top: 80px;
+        color: white;
+    }
+    .location h5{
+        font-size: 20px;
+        margin: 40px 100px;
+        font-size: 19px;
+    }
+    .carasol_content h2{
+        text-align: left;
+        font-size: 40px;
+        margin: 40px 100px;
+    }
+    .carasol_content .about{
+        text-align: center;
+    }
+    #slide-text{
+        text-align: center;
+        font-size: 20px;
+        margin: 2px 16px;
+    }
+
+
+    .main_body p{
+        font-weight: 600;
+        text-align: center;
+        margin: 18px 160px;
+       
+    }
+    .case-studies{
+        position: absolute; 
+        right: 20px;
+        top:6px;
+    }
+
+    form input {
+        position:relative;
+        left:0%;
+        width: 100%;
+        transform:translateX(0);
+    }
+    .submit-btn{
+        padding: 6px 10px;
+        color:white;
+        background: #1b427f;
+        border: none;
+        border-radius: 5px;
+        font-size: 24px;
+        transition: 0.5s;
+    }
+    .capabilities-child{
+        position: relative;
+        left: 56%;
+        transform: translateX(-38%);
+    }
+    .submit-btn:hover{
+        box-shadow: 0px 5px 2px rgba(0,0,0,.6);
+    }
+    
+    .list{
+        display: flex;
+        margin: 20px 46px ;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .list img{
+        position: relative;
+        right: 0px;
+        
+
+    } 
+    .list ul{
+        list-style: none;
+        margin-top: 30px;
+    }
+    
+    
+    .carousel {
+    position:relative;
+    }
+    .carousel-caption {
+        width:100%;
+        text-align: left;
+        transform: translateX(-15%);
+    }
+    .carousel-inner{
+        height: 350px;
+        
+    }
+    .carousel-caption h3{
+    
+        text-align: left;
+        margin: 10px 50px;
+    }
+    .carousel-caption p{
+        text-align: left;
+        margin: 10px 50px;
+    }
+    .carousel-caption .btn{
+        text-align: left;
+        margin: 10px 50px;
+        position: relative;
+        background: #00346d;
+        color: #fff;
+        
+    }
+    .carousel-caption .btn:hover{
+        color: #fff;
+    }
+    .carousel-caption img{
+        height: 100%;
+        position: absolute;
+        bottom: 0px;
+        right: 60px;
+        display: block;
+    }
+    
+    .laptop{
+        display:block;	
+        position:absolute;
+        
+        right:0;
+        bottom:0;
+    }
+    /* footer */
+    footer .desk-only{
+        display: block;
+    }
+}        

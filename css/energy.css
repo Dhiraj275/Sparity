@@ -1,0 +1,147 @@
+.carasol_content h1{
+    
+    font-size: 60px;
+    margin: 40px 100px;
+}
+header{
+    overflow-y: unset;
+    position: relative;
+    height: 60vh;
+}
+.banner-content{
+    position: absolute;
+    bottom: 0px;
+    transform: translateY(60%);
+    color: black;
+    margin:30px;
+    left: 0;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    background: #fff;
+    padding: 40px 12px;
+    border: 2px solid #f2f2f2;
+    border-bottom-left-radius: 20%;
+   
+}
+.banner-content h2{
+    font-size: 20px;
+    color: #5472a2;
+    font-weight: 800;
+}
+.main-content p{
+    color: #000; 
+    text-align: center; 
+    font-weight: 400;  
+    font-size: 35px; 
+    width: 80%;
+}
+.main-card p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.patner-main{
+    width: 100vw;
+    background: black;
+    padding: 30px 0px;
+    color: white;
+}
+.patner-main button{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: 600;
+    padding: 8px 20px;
+    font-size: 20px;
+    
+}
+.retail-card div{
+    background: white;
+    border: 5px solid #f2f2f2;
+    transform: translateY(-50%);
+    margin: 0px 20px;
+    padding: 0px 4px;
+    height: 200px;
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
+}
+.retail-card div p{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-inner{
+	height: 350px;
+    }
+    
+
+    .marge-list{
+        box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
+        border: 1px solid #f2f2f2;
+        position: relative;
+        background: white;
+        border-bottom-left-radius: 20%;
+    }
+    .marge-list ul{
+        font-size: 20px;
+        margin: 20px 50px;
+    }
+
+
+@media(min-width:992px){
+    header{
+        height: 90vh;
+    }
+    .carasol_content h1{
+        text-align: left;
+        font-size: 60px;
+        margin: 40px 100px;
+    }
+    .banner-content{
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translate(-55%, 60%);
+        color: black;
+        margin:30px;
+        
+        box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+        background: #fff;
+        padding: 40px 12px;
+    
+        border: 2px solid #f2f2f2;
+        border-bottom-left-radius: 20%;
+       
+    }
+
+    .banner-content h2{
+        font-size: 30px;
+        
+    }
+    .marge-main{
+        transform: translateX(5%);
+    }
+    .marge-list{
+        box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.4);
+        border: 1px solid black;
+
+        position: relative;
+        background: white;
+        transform: translateX(-15%);
+        border-bottom-left-radius: 20%;
+    }
+    .marge-list ul{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-60%);
+        font-size: 20px;
+    }
+    .marge-list ul li{
+        margin: 0px 20px;
+       
+    }
+}
+@media(min-width:360px){
+    h2.benefits{
+        font-size: 20px;
+    }
+}
